@@ -1,0 +1,22 @@
+{
+  "name": "date-helpers",
+  "version": "0.0.1",
+  "description": "Some date helpers to work with standart js dates but using luxon",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-void/date-helpers.git"
+  },
+  "author": "Onur Eren Elibol",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/i-void/date-helpers/issues"
+  },
+  "homepage": "https://github.com/i-void/date-helpers#readme",
+  "dependencies": {
+    "luxon": "^3.4.4"
+  }
+}
