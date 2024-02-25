@@ -1,5 +1,5 @@
 {
-  "name": "date-helpers",
+  "name": "luxon-helpers",
   "version": "0.0.1",
   "description": "Some date helpers to work with standart js dates but using luxon",
   "main": "index.ts",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/i-void/date-helpers.git"
+    "url": "git+https://github.com/i-void/luxon-helpers.git"
   },
   "author": "Onur Eren Elibol",
   "license": "CC0-1.0",
