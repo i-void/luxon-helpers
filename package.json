@@ -1,6 +1,6 @@
 {
   "name": "luxon-helpers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Some date helpers to work with standart js dates but using luxon",
   "main": "index.ts",
   "scripts": {
