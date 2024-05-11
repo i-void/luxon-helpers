@@ -79,3 +79,52 @@ export function cFindNextNthMinute(n: number) {
 export function startOfDay(date: Date) {
   return DateTime.fromJSDate(date).startOf('day').toJSDate()
 }
+
+export function endOfDay(date: Date) {
+  return DateTime.fromJSDate(date).endOf('day').toJSDate()
+}
+
+export function startOfMonth(date: Date) {
+  return DateTime.fromJSDate(date).startOf('month').toJSDate()
+}
+
+export function endOfMonth(date: Date) {
+  return DateTime.fromJSDate(date).endOf('month').toJSDate()
+}
+
+export function startOfYear(date: Date) {
+  return DateTime.fromJSDate(date).startOf('year').toJSDate()
+}
+
+export function endOfYear(date: Date) {
+  return DateTime.fromJSDate(date).endOf('year').toJSDate()
+}
+
+export function startOfHour(date: Date) {
+  return DateTime.fromJSDate(date).startOf('hour').toJSDate()
+}
+
+export function endOfHour(date: Date) {
+  return DateTime.fromJSDate(date).endOf('hour').toJSDate()
+}
+
+export function gt(date1: Date, date2: Date) {
+  return DateTime.fromJSDate(date1) > DateTime.fromJSDate(date2)
+}
+
+export function gte(date1: Date, date2: Date) {
+  return DateTime.fromJSDate(date1) >= DateTime.fromJSDate(date2)
+}
+
+export function lt(date1: Date, date2: Date) {
+  return DateTime.fromJSDate(date1) < DateTime.fromJSDate(date2)
+}
+
+export function lte(date1: Date, date2: Date) {
+  return DateTime.fromJSDate(date1) <= DateTime.fromJSDate(date2)
+}
+
+export function eq(date1: Date, date2: Date) {
+  return DateTime.fromJSDate(date1) === DateTime.fromJSDate(date2)
+}
+

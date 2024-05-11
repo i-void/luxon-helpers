@@ -18,5 +18,8 @@
   "homepage": "https://github.com/i-void/date-helpers#readme",
   "dependencies": {
     "luxon": "^3.4.4"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.4.2"
   }
 }
