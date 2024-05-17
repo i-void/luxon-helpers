@@ -17,7 +17,7 @@ export function cDiff(date2: Date) {
 
 export function minus(date: Date, dur: DurationLike) {
   const aLux = DateTime.fromJSDate(date)
-  return aLux.minus(dur)
+  return aLux.minus(dur).toJSDate()
 }
 
 // curried version
