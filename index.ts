@@ -125,6 +125,6 @@ export function lte(date1: Date, date2: Date) {
 }
 
 export function eq(date1: Date, date2: Date) {
-  return DateTime.fromJSDate(date1) === DateTime.fromJSDate(date2)
+  return DateTime.fromJSDate(date1).toMillis() === DateTime.fromJSDate(date2).toMillis()
 }
 
